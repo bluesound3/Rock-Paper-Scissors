@@ -1,10 +1,28 @@
 var userPoint = 0;
 var aiPoint = 0;
 
+
 // This function returns the selection of the computer
 function getAISelection() {
     //TODO: randomly choose between 'rock', 'paper', or 'scissors'
-   Math.floor((Math.random() * 10) + 1)
+    var random = Math.floor((Math.random() * 10) + 1)
+   
+   if (random =< 3.5){
+       
+       random = rock
+   }else if (random >3.5 && =< 7){
+       
+       random = paper
+   
+   }else if (random > 7 && =<10){
+       
+       
+       random = scissors
+      }
+   }
+   
+   
+
    
    
 }
