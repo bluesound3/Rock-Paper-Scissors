@@ -4,6 +4,9 @@ var aiPoint = 0;
 // This function returns the selection of the computer
 function getAISelection() {
     //TODO: randomly choose between 'rock', 'paper', or 'scissors'
+   Math.floor((Math.random() * 10) + 1)
+   
+   
 }
 
 // This function picks the winner
